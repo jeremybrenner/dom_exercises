@@ -34,4 +34,8 @@ see how to work with them.
 - What are the differences between `.getElementById`,
   `.getElementsByClassName`, `.getElementsByTagName`, and
   `querySelectorAll`?
+  // The .getElements retrieve specically tagged elements as an //indidivual object, and will return null if it doesnt exist. //querySelector will return an error if they do not exist, and 
+  //querySelectorAll will return all matching retrieved elements
+  //as an array.
 - How did you loop over the lists of elements?
+  //Looping over the array returned from querySelectorAll with a //for loop.

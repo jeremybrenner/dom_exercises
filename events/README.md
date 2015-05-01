@@ -34,6 +34,7 @@ mouse moves, when keys are pressed, and when forms are submitted.
 ## Part 4
 
 - Why was the page refreshing in Part 3?
+//This is the default behavior of a button
 - Use `event.preventDefault()` to prevent this from happening.
 
 ## Part 5
@@ -55,6 +56,9 @@ mouse moves, when keys are pressed, and when forms are submitted.
 ## Questions
 
 - What does `event.preventDefault()` do?
+//its prevents the default behavior of events that would cause a page to reload
 - Why do we listen for the `submit` event on a `<form>` instead of
   listening for the `click` event on the submit button?
+ //because a user may not click to submit- they may use a key like enter, which would trigger default behavior.
 - What does the `window`'s `load` event allow us to do?
+//It allows us to load scripts in the head. Otherwise the JS is maniuplating DOM elements before they are loaded.
